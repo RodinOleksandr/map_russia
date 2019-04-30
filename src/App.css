@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #dddcdc;
+}
+#root{
+  padding-top: 20px;
+  margin: 0 auto;
+
+
+  height: 95% ;
+
+  position: relative;
+  text-align: center;
+}
+.map{
+    margin: 0 auto;
+    height: 100% ;
+    position: relative;
+    text-align: center;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #dddcdc;
+}
+.country {
+
+    fill: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.7;
+
+}
+.country:hover {
+
+    transition:all 0.5s;
+    fill: #A8A2A2;
+    stroke: #000;
+    opacity: 0.5;
+
+}
+
+
+.info{
+  text-align: center;
+  background: #FFF5D7;
+  opacity: 0.7;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px #333;
+  min-width: 150px;
+  transition: all 1s;
+  animation-name: example;
+  animation-duration: 1s;
+
+
+}
+
+
+@keyframes example {
+  0%   {opacity: 0;}
+
+  100% {opacity: 0.7;}
+}
+
+
+.active{
+  fill: rgba(19, 132, 170 , 1);
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.active:hover {
+
+    transition:all 0.5s;
+
+    stroke: #000;
+
+
+}
+.info span{
+  display: block;
+  padding: 10px;
+
+}
