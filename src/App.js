@@ -14,7 +14,7 @@ class  App extends React.Component  {
       name : '',
       coordX : null,
       coordY : null,
-      activeCountry : [33, 21, 35, 78, 22, 13, 54, 72, 34, 27, 86]
+      activeCountry : [33, 21, 35, 78, 22, 13, 54, 72, 34, 27, 86, 5, 6, 39, 61]
     }
 
     handleClick = (event,item  ) =>{
